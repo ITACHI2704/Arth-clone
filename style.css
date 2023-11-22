@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600&family=Poppins:ital,wght@0,500;1,200;1,300;1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+/* --------------heder----------------------  */
+
+
+.header {
+    display: flex;
+    align-items: center;
+    background-image: -webkit-linear-gradient(left, rgb(19, 37, 102), rgb(107, 179, 35));
+    padding: 10px;
+    position: relative;
+}
+
+
+.logo {
+    float: left;
+    width: 120px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner img {
+    width: 100%;
+}
+
+
+
+.logo {
+    float: left;
+    width: 120px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner img {
+    width: 100%;
+}
+
+
+.login {
+    margin-right: 10px;
+    position: absolute;
+    top: 25%;
+    right: 0%;
+}
+
+.login span {
+    font-size: 20px;
+    color: white;
+
+}
+
+.bx {
+    font-size: 30px;
+    color: white;
+
+}
+
+/* ---------------------- second part ---------------  */
+
+.hiding {
+
+    margin: .9% 20%;
+}
+
+.scond_section{
+    margin: 0 .5%;
+}
+
+.first-d
+ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: -webkit-linear-gradient(left, rgb(19, 37, 102), rgb(107, 179, 35));
+    margin-bottom: 20px;
+    color: #fff;
+    border-radius: 14px;
+    box-shadow: rgb(0, 0, 0) 0px 0.5px 8px 2px;
+}
+
+.course-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.course-icon img {
+    width: 100%;
+}
+
+/* --------------------third section--------------------- */
+
+
+
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: -webkit-linear-gradient(left, rgb(19, 37, 102), rgb(107, 179, 35));
+    margin-bottom: 20px;
+    color: #fff;
+    border-radius: 14px;
+    box-shadow: rgb(0, 0, 0) 0px 0.5px 8px 2px;
+}
+
+.full{
+    display: flex;
+    justify-content: space-between;
+}
+.righy{
+    flex-basis: 40%;
+    background-color: red;
+}
+.lephy{
+    flex-basis: 50%;
+    background-color: rgb(16, 14, 14);
+}
+.content{
+    width: 100%;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  
+}
+
+.lephy h1{
+    font-size: 20px;
+}
+
+.main{
+   width: 30%;
+   padding: 20px 24px;
+}
+
+.righy img{
+    width:120PX;
+}
+
+.buten{
+    margin-top: 10px ;
+}
+
+
+.rtn{
+    background-color: blue;
+    font-size: 15px ;
+    padding: 10px 20px ;
+    border-radius: 25px;
+    border:transparent ;
+}
+
+.btn{
+    background-color: rgb(0, 255, 89);
+    font-size: 15px ;
+    padding: 10px 20px ;
+    border-radius: 25px;
+    border:transparent ;
+}
+
+
+
+
+/* ------------------fourth container------------- */
+
+
+.fourth_d{
+    display: flex;
+ justify-content: center;
+    
+}
+
+.toppers{
+    flex-basis: 27%;
+    margin: 0 2%;
+}
+
+.toppers img{
+width: 90%;
+}
+
+.toppers h3{
+    text-align: center;
+}
+
+/* ----------------------fifth section------------------ */
+
+.nfo_main{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   /* background-color: aquamarine; */
+}
+
+.info_img{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis:31%;
+    position: relative;
+}
+
+.info_img  img {
+   width: 65%;
+  
+}
+
+.info_img h3{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    color:red;
+    
+   
+}
+
+
+
+/* ------------------sixth section-------------------  */
+
+
+.teac_main_con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teach_info{
+    flex-basis: 22%;
+    margin-bottom: 20px;
+}
+
+.teach_info img {
+    border: 2px solid saddlebrown;
+    border-radius:20px;
+    width: 100%;
+}
+
+.teach_info p{
+    text-align: center;
+   
+}
+
+
+
+
+/* ----------seventh section ---------------- */
+
+.new-nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: -webkit-linear-gradient(left, rgb(19, 37, 102), rgb(107, 179, 35));
+    /* margin: 1% 20%; */
+    color: #fff;
+    position: absolute;
+    top: -1.1%;
+    left: 0;
+  
+}
+
+.new-nav ul li {
+   list-style: none;
+   display: inline-block;
+   padding: 20px 40px;
+}
+.new-nav ul li a{
+ text-decoration: none;
+ color: black;
+
+}
+
+
+
+.red:hover{
+    border: 2px solid rgb(21, 0, 128);
+    background-color: #fff;
+    color: black;
+
+}
+
+li.active{
+    background-color: #fff;
+    color: black;
+  
+}
+
+.bor{
+  
+    border: 20px solid rgb(226, 220, 220);
+     margin: 1% 20%;
+     position: relative;
+     border-radius: 15px;
+     outline: .9 px black;
+    
+}
+
+.hr_main{
+    margin-top:5% ;
+ padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+
+.h-right{
+    width: 48%;
+
+}
+
+.h-left{
+    width: 48%;
+  
+}
+
+
+.mahu{
+    width: 100%;
+}
+.main_sa h2,p{
+padding: 20px 0;
+}
+.secodnd{
+   padding: 20px 0; 
+   color: red;
+}
+
+
+/* ------------------------footer section-------------- */
+
+
+
+.footer{
+    padding: 20px 20px 100px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #292c2f;
+    color: white;
+}
+
+.sub_footer{
+   
+    width: 25%;
+}
+
+.call{
+     display: flex;
+     
+}
+.icon{
+    display: flex;
+}
+
+.name{
+    margin: 0 0 0 20px;
+    /* background-color: red; */
+}
+
+ .bxl-instagram-alt,.bxl-twitter,.bxs-phone-call{
+font-size: 40px;
+margin: 10px 15px;
+background-color: rgb(123, 120, 117);
+}
+ i.bx-envelope p{
+    color: red;
+}
+
+.bxl-facebook{
+    font-size: 40px;
+    margin: 10px  15px 10px 0px;
+    background-color: rgb(123, 120, 117); 
+}
+.bxl-gmail{
+    font-size: 40px;
+    margin: 10px 15px;
+    background-color: rgb(123, 120, 117);
+    border-radius: 4px; 
+}
