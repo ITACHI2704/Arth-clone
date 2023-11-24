@@ -478,7 +478,8 @@ border-radius: 4px;
         padding: 8px 1px;
       }
       .righy img {
-        width: 60px;
+        padding-top: 5px;
+        width:60px;
       }
       .lephy h1{
         font-size: 9px;
@@ -517,6 +518,7 @@ border-radius: 4px;
 .toppers h3{
     font-size: 10px;
     margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .first-d h3{
     font-size: 17px;
@@ -534,8 +536,8 @@ border-radius: 4px;
 
 .info_img h3{
     font-size: 15px;
-    top: 30%;
-    left: 5%;
+    top: 35%;
+    left: 7%;
     
 }
 .teach_info{
@@ -590,12 +592,18 @@ border-radius: 4px;
   .footer{
       padding: 10px 5px 50px 5px;
     flex-direction: column;
+margin-top: 8px;
   }
 
-.top, .bottom {
+.top {
   width: 100%;
   display: flex;
 
+}
+.bottom {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
 }
 
 .footer h3{
@@ -620,13 +628,16 @@ border-radius: 4px;
 
  .bxl-instagram-alt,.bxl-twitter {
     font-size: 25px;
-    margin: 10px 15px;
+    margin: 5px 6px;
  }
  .bxl-facebook{
     font-size: 25px;
+    margin: 5px 6px 5px 1px ;
  }
 
-
+.teach_info p{
+    font-size: 12px;
+}
 
  
 }
