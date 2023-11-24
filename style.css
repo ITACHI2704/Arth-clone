@@ -14,6 +14,8 @@
 
 
 
+
+
 /* --------------heder----------------------  */
 
 
@@ -70,6 +72,8 @@ nav ul li a {
 
 
 .login {
+    display: flex;
+    align-items: center;
     margin-right: 10px;
     position: absolute;
     top: 25%;
@@ -77,7 +81,7 @@ nav ul li a {
 }
 
 .login span {
-    font-size: 20px;
+    font-size: 15px;
     color: white;
 
 }
@@ -144,15 +148,15 @@ nav ul li a {
 }
 .righy{
     flex-basis: 40%;
-    background-color: red;
+    /* background-color: red; */
 }
 .lephy{
     flex-basis: 50%;
-    background-color: rgb(16, 14, 14);
+    /* background-color: rgb(16, 14, 14); */
 }
 .content{
     width: 100%;
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -165,11 +169,11 @@ nav ul li a {
 
 .main{
    width: 30%;
-   padding: 20px 24px;
+   padding: 15px 5px;
 }
 
 .righy img{
-    width:120PX;
+    width: 106px;
 }
 
 .buten{
@@ -178,17 +182,18 @@ nav ul li a {
 
 
 .rtn{
-    background-color: blue;
-    font-size: 15px ;
-    padding: 10px 20px ;
+    background-color: rgb(55, 55, 160);
+   
     border-radius: 25px;
     border:transparent ;
+    font-size: 8px;
+    padding: 7px 14px;
 }
 
 .btn{
-    background-color: rgb(0, 255, 89);
-    font-size: 15px ;
-    padding: 10px 20px ;
+    background-color: rgb(34, 126, 66);
+    font-size: 8px;
+    padding: 7px 14px;
     border-radius: 25px;
     border:transparent ;
 }
@@ -287,11 +292,12 @@ width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
     background-image: -webkit-linear-gradient(left, rgb(19, 37, 102), rgb(107, 179, 35));
     /* margin: 1% 20%; */
     color: #fff;
     position: absolute;
-    top: -1.1%;
+    top: -2.1%;
     left: 0;
   
 }
@@ -299,7 +305,8 @@ width: 90%;
 .new-nav ul li {
    list-style: none;
    display: inline-block;
-   padding: 20px 40px;
+   
+   padding: 10px 20px;
 }
 .new-nav ul li a{
  text-decoration: none;
@@ -310,7 +317,7 @@ width: 90%;
 
 
 .red:hover{
-    border: 2px solid rgb(21, 0, 128);
+    border: .3px solid rgb(21, 0, 128);
     background-color: #fff;
     color: black;
 
@@ -354,10 +361,18 @@ li.active{
 
 .mahu{
     width: 100%;
+    padding-bottom: 10px;
 }
 .main_sa h2,p{
-padding: 20px 0;
+font-size: 20px;
+padding: 5px 0;
 }
+
+.main_sa p{
+    font-size: 15px;
+    padding: 5px 0; 
+}
+
 .secodnd{
    padding: 20px 0; 
    color: red;
@@ -378,9 +393,15 @@ padding: 20px 0;
     color: white;
 }
 
+.top, .bottom{
+    width: 50%;
+    display: flex;
+    
+}
+
 .sub_footer{
    
-    width: 25%;
+    width: 50%;
 }
 
 .call{
@@ -396,11 +417,21 @@ padding: 20px 0;
     /* background-color: red; */
 }
 
- .bxl-instagram-alt,.bxl-twitter,.bxs-phone-call{
+ .bxl-instagram-alt,.bxl-twitter{
 font-size: 40px;
 margin: 10px 15px;
 background-color: rgb(123, 120, 117);
+border-radius: 4px; 
+
 }
+
+.bxs-phone-call{
+    font-size: 40px;
+    margin:10px;
+    background-color: rgb(123, 120, 117);
+    border-radius: 4px; 
+
+    }
  i.bx-envelope p{
     color: red;
 }
@@ -408,11 +439,194 @@ background-color: rgb(123, 120, 117);
 .bxl-facebook{
     font-size: 40px;
     margin: 10px  15px 10px 0px;
-    background-color: rgb(123, 120, 117); 
+    background-color: rgb(123, 120, 117);
+    border-radius: 4px; 
+    
 }
 .bxl-gmail{
     font-size: 40px;
     margin: 10px 15px;
     background-color: rgb(123, 120, 117);
     border-radius: 4px; 
+}
+
+
+
+
+/* css for small screen  --------  */
+
+@media only screen and (max-width:600px){
+    .bx{
+        font-size: 25px;
+    }
+    nav ul li {
+        display: none;
+    }
+    .first-d h2{
+        font-size: 15px;
+    }
+    .row h1{
+        font-size: 15px;
+        padding: 4px 0;
+    }
+
+    .hiding {
+        margin: .9% 2%;
+      }
+      .main {
+        width: 50%;
+        padding: 8px 1px;
+      }
+      .righy img {
+        width: 60px;
+      }
+      .lephy h1{
+        font-size: 9px;
+      }
+      
+    .main h2, p {
+  font-size: 6px;
+  padding: 5px 0;
+}
+.buten {
+  margin-top: 1px;
+  display: flex;
+  /* align-items: center;
+  justify-content: space-between; */
+}
+.btn {
+  background-color: rgb(34, 126, 66);
+  font-size: 6px;
+  padding: 4px ;
+  border-radius: 25px;
+  border: transparent;
+}
+.rtn {
+    background-color: rgb(34, 66, 126);
+    font-size: 6px;
+    padding: 4px;
+    border-radius: 25px;
+    border: transparent;
+  }
+
+  
+.toppers {
+  flex-basis: 30%;
+  
+}
+.toppers h3{
+    font-size: 10px;
+    margin: 0%;
+}
+.first-d h3{
+    font-size: 17px;
+}
+.first-d {
+    margin-bottom: 10px;
+}
+.info_img img{
+    width: 90%;
+}
+.info_img{
+    margin-top: 10px;
+}
+
+
+.info_img h3{
+    font-size: 15px;
+    top: 30%;
+    left: 5%;
+    
+}
+.teach_info{
+    margin-bottom: 10px;
+}
+
+.bor {
+  border: 7px solid rgb(226, 220, 220);
+  position: relative;
+  border-radius: 15px;
+  outline: .9 px black;
+  margin: 0;
+
+}
+
+
+
+.new-nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 7px;
+
+}
+.new-nav{
+    top: 0;
+    left: 0;
+}
+.new-nav ul li{
+    padding: 2px;
+}
+.hr_main{
+    padding: 0 10px;
+    margin-top: 28px;
+}
+.main_sa p {
+    font-size: 10px;
+    padding: 3px 0;
+  }
+
+  .main_sa h2 {
+    font-size: 15px;
+  }
+  .footer{
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+  }
+  .sub_footer{
+    width: 50%;
+  }
+
+  .footer{
+      padding: 10px 5px 50px 5px;
+    flex-direction: column;
+  }
+
+.top, .bottom {
+  width: 100%;
+  display: flex;
+
+}
+
+.footer h3{
+    display: none;
+}
+.bxs-phone-call,.bxl-gmail {
+    font-size: 20px;
+    margin: 4px;
+    background-color: rgb(123, 120, 117);
+    border-radius: 4px;
+  }
+  .name{
+ margin-left: 1px;
+ font-size: 8px;
+  }
+ .sub_footer h1{
+    font-size: 18px;
+ }
+ .last{
+    font-size: 9px;
+ }
+
+ .bxl-instagram-alt,.bxl-twitter {
+    font-size: 25px;
+    margin: 10px 15px;
+ }
+ .bxl-facebook{
+    font-size: 25px;
+ }
+
+
+
+ 
 }
