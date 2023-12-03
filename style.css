@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600&family=Poppins:ital,wght@0,500;1,200;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300&family=Roboto:wght@300;400&display=swap');
 
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'League Spartan', sans-serif;
     font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -59,12 +59,32 @@ nav ul li {
     display: inline-block;
     list-style: none;
     padding: 0 20px;
+    
+
 }
 
 nav ul li a {
     text-decoration: none;
     color: #fff;
+    position: relative;
+ }
+
+nav ul li a:hover {
+    transition:ease-in-out .25s; 
 }
+
+
+
+nav ul li a:hover::after{
+    content: '';
+  position: absolute;
+  bottom: 2%;
+  left: 0%;
+  height: 3px;
+  width: 100%;
+  background:linear-gradient(green,blue);
+}
+
 
 .banner img {
     width: 100%;
@@ -453,11 +473,221 @@ border-radius: 4px;
 
 
 
-/* css for small screen  --------  */
 
+
+
+
+
+
+
+/* for 910px css for small screen  */
+
+@media only screen and (max-width:910px)
+{
+
+    .bx{
+        font-size: 40px;
+    }
+    
+
+ nav ul li{
+    display: none;
+ }
+   
+    .first-d h2{
+        font-size: 0px;
+    }
+    .row h1{
+        font-size: 20px;
+        padding: 4px 0;
+    }
+
+    .hiding {
+        margin: .9% 2%;
+      }
+      .main {
+        width: 50%;
+        padding: 8px 1px;
+      }
+      .righy img {
+        padding-top: 5px;
+        width:75px;
+      }
+      .lephy h1{
+        font-size: 14px;
+      }
+      
+    .main h2, p {
+  font-size: 10px;
+  padding: 5px 0;
+}
+.buten {
+  margin-top: 1px;
+  display: flex;
+  /* align-items: center;
+  justify-content: space-between; */
+}
+.btn {
+  background-color: rgb(34, 126, 66);
+  font-size: 6px;
+  padding: 4px ;
+  border-radius: 25px;
+  border: transparent;
+}
+.rtn {
+    background-color: rgb(34, 66, 126);
+    font-size: 6px;
+    padding: 4px;
+    border-radius: 25px;
+    border: transparent;
+  }
+
+  
+.toppers {
+  flex-basis: 30%;
+  
+}
+.toppers h3{
+    font-size: 17px;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.first-d h3{
+    font-size: 17px;
+}
+.first-d {
+    margin-bottom: 10px;
+}
+.info_img img{
+    width: 90%;
+}
+.info_img{
+    margin-top: 10px;
+}
+
+
+.info_img h3{
+    font-size: 15px;
+    top: 35%;
+    left: 27%;
+    
+}
+.teach_info{
+    margin-bottom: 10px;
+}
+
+.bor {
+  border: 7px solid rgb(226, 220, 220);
+  position: relative;
+  border-radius: 15px;
+  outline: .9 px black;
+  margin: 0;
+
+}
+
+
+
+.new-nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+
+}
+.new-nav{
+    top: 0;
+    left: 0;
+}
+.new-nav ul li{
+    padding: 2px;
+}
+.hr_main{
+    padding: 0 10px;
+    margin-top: 28px;
+}
+.main_sa p {
+    font-size: 15px;
+    padding: 3px 0;
+  }
+
+  .main_sa h2 {
+    font-size: 25px;
+  }
+  .footer{
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+  }
+  .sub_footer{
+    width: 48%;
+  }
+
+  .footer{
+    display: flex;
+      padding: 10px 5px 50px 5px;
+    flex-direction: row;
+margin-top: 8px;
+  }
+
+.top {
+  width: 100%;
+  display: flex;
+
+}
+.bottom {
+    margin-top: 0px;
+    width: 100%;
+    display: flex;
+}
+
+ /* .footer h3{
+    display: none; 
+} */
+.bxs-phone-call,.bxl-gmail {
+    font-size: 20px;
+    margin: 4px;
+    background-color: rgb(123, 120, 117);
+    border-radius: 4px;
+  }
+  .name{
+ margin-left: 1px;
+ font-size: 6px;
+  }
+ .sub_footer h1{
+    font-size: 17px;
+ }
+ .last{
+    font-size: px;
+ }
+
+ .bxl-instagram-alt,.bxl-twitter {
+    font-size: 25px;
+    margin: 5px 6px;
+ }
+ .bxl-facebook{
+    font-size: 25px;
+    margin: 5px 6px 5px 1px ;
+ }
+
+.teach_info p{
+    font-size: 12px;
+}
+
+  .main h2, p {
+    font-size: 8px;
+    padding: 5px 0;
+  }
+
+
+    
+}
+
+
+
+
+/* css for 600px small screen  --------  */
 @media only screen and (max-width:600px){
     .bx{
-        font-size: 25px;
+        font-size: 28px;
     }
     nav ul li {
         display: none;
@@ -479,14 +709,14 @@ border-radius: 4px;
       }
       .righy img {
         padding-top: 5px;
-        width:60px;
+        width:75px;
       }
       .lephy h1{
-        font-size: 9px;
+        font-size: 14px;
       }
       
     .main h2, p {
-  font-size: 6px;
+  font-size: 10px;
   padding: 5px 0;
 }
 .buten {
